@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 To install, run the following:
 
 ```
-git clone https://github.com/ubcengineers/eweek
+git clone https://github.com/ubcengineers/eweek-2018
 cd eweek
 yarn
 ```
