@@ -1,20 +1,24 @@
 import * as React from 'react';
-import './App.css';
+import styled from 'styled-components';
 
-import logo from './logo.svg';
+import { Countdown } from './components/Countdown';
+
+const StyledWrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+`;
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </div>
+      <StyledWrapper>
+        <Countdown />
+      </StyledWrapper>
     );
   }
 }
