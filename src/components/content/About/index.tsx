@@ -1,20 +1,18 @@
-import * as React from 'react';
-import { StyledContent, StyledWrapper } from './styled';
+import * as React from "react";
+import { StyledContent, StyledWrapper } from "./styled";
 
-import './color.css';
+import "./color.css";
 
 interface IProps {
-    color: 'white' | 'blue' | 'red';
-    children: React.ReactNode;
-    border?: string;
+  color: "white" | "blue" | "aqua";
+  children: React.ReactNode;
+  border?: string;
 }
 
 export default (props: IProps) => {
-    return (
-        <StyledWrapper className={props.color}>
-            <StyledContent>
-                    {props.children}
-            </StyledContent>
-        </StyledWrapper>
-    )
-}
+  return (
+    <StyledWrapper className={props.color}>
+      <StyledContent>{props.children}</StyledContent>
+    </StyledWrapper>
+  );
+};

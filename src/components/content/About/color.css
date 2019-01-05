@@ -1,26 +1,38 @@
 .white {
-    background: white;
-    color: black;
+  background: white;
+  color: #333;
 }
 
-.white h1, .white h2, .white h3 {
-    color: #E51E25;
+.white h1,
+.white h2,
+.white h3 {
+  color: #e51e25;
 }
 
 .blue {
-    color: white;
-    background: radial-gradient(#2f2f6f 40%, transparent 100%);
+  color: #333;
+  background-color: #002e50;
+  background-image: url("../../../assets/cars.png");
+  background-size: 300px auto;
+  background-repeat: repeat;
 }
 
-.blue h1, .blue h2, .blue h3 {
-    color: white;
+.blue h1,
+.blue h2,
+.blue h3 {
+  color: #e51e25;
 }
 
-.red {
-    color: white;
-    background: #E51E25;
+.aqua {
+  color: #333;
+  background-color: #44ffd1;
+  background-image: url("../../../assets/cars.png");
+  background-size: 300px auto;
+  background-repeat: repeat;
 }
 
-.red h1, .blue h2, .blue h3 {
-    color: white;
+.aqua h1,
+.aqua h2,
+.aqua h3 {
+  color: #e51e25;
 }

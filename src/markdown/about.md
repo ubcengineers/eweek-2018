@@ -1,4 +1,3 @@
-# The best way to kickstart your first year at UBC.
-Hello and welcome to UBC Engineering!  The Engineering Undergraduate Society (EUS) is delighted to invite you to our community of nearly 5000 undergraduate students. Your friends at the EUS have spent the whole summer planning 2 weeks of events geared towards welcoming all of you! Week E{{<sup>0</sup>}} is the second best week of the year*, and is a great time to meet some of your peers, talk to upper-years, get to know campus, and help you find your niche at UBC. 
+# Hello and welcome to E-Week: the best week of the year.
 
-{{<small>*after E-Week, of course.</small>}}
+Welcome to a week of challenges, competition, and, of course, fun. Test your skills in mechanical design, dodgeball, trivia, and more. Watch your classmates prove they know more science than the sci-fi movies, create a model to dispense BEvERages, and race chariots down Main Mall. Are you ready?

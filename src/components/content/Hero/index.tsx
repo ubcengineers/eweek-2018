@@ -1,23 +1,21 @@
-import * as React from 'react';
-import { StyledLogo, StyledWrapper } from './styled';
+import * as React from "react";
+import {
+  StyledCountdownText,
+  StyledInnerWrapper,
+  StyledPineapple,
+  StyledWrapper
+} from "./styled";
 
-interface IProps {
-    logo?: string;
-    title?: string;
-    size?: 'full' | 'mid';
-}
+import pineapple from "../../../assets/pineapple.png";
 
-export default (props: IProps) => {
-    return (
-        <StyledWrapper id='home' style={{
-            height: props.size === 'full' ? 'calc(100vh - 64px)' : '50vw',
-            maxHeight: props.size === 'full' ? '' : '50vh',
-        }}>
-            {props.title !== undefined ?
-                <h1>{props.title}</h1>
-            :
-                <StyledLogo src={props.logo} />
-            }
-        </StyledWrapper>
-    );
-}
+export default () => {
+  return (
+    <StyledWrapper id="home">
+      <StyledInnerWrapper>
+        <StyledCountdownText>0{13 - new Date().getDate()}</StyledCountdownText>
+        <StyledPineapple src={pineapple} draggable={false} />
+        <StyledCountdownText>DAYS</StyledCountdownText>
+      </StyledInnerWrapper>
+    </StyledWrapper>
+  );
+};
