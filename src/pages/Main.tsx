@@ -32,6 +32,17 @@ export default () => {
                 "https://docs.google.com/document/d/1SU_1ObHUqKnJzZxcjIgos20AM8PnNnhzKvRRdWG92As/edit?usp=sharing&fbclid=IwAR19R4UFWdtdu0KGQmiS0tlD9lWeE3qbdHJk5Nfef3KVmdllHViisel4nBM",
               logo: "fas fa-external-link-alt",
               title: "E-Week Guidebook"
+            },
+            {
+              link:
+                "https://docs.google.com/forms/d/e/1FAIpQLSd-1WZQfIp7HaLPNjEiw76b8BO5TsSNeFfv_ARXwBdHYMXIxQ/viewform",
+              logo: "fas fa-barcode",
+              title: "Register you UBC Card"
+            },
+            {
+              link: "https://goo.gl/forms/UqmslxGN1xcWMEpY2",
+              logo: "fas fa-calendar-check",
+              title: "RSVP for Old Red New Red"
             }
           ]}
         />
