@@ -143,9 +143,9 @@ export default () => {
             },
             {
               day: 5,
-              end: 14.5,
-              start: 12.5,
-              subtitle: "12:30pm - 14:30pm",
+              end: 8,
+              start: 10,
+              subtitle: "8am - 10am",
               title: "Dodgeball"
             },
             {
