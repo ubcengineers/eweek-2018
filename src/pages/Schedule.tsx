@@ -142,7 +142,7 @@ export default () => {
               title: "GeogEUSsr"
             },
             {
-              day: 5,
+              day: 4,
               end: 8,
               start: 10,
               subtitle: "8am - 10am",
