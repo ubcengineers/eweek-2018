@@ -37,7 +37,7 @@ export default () => {
               link:
                 "https://docs.google.com/forms/d/e/1FAIpQLSd-1WZQfIp7HaLPNjEiw76b8BO5TsSNeFfv_ARXwBdHYMXIxQ/viewform",
               logo: "fas fa-barcode",
-              title: "Register you UBC Card"
+              title: "Register for attendance points"
             },
             {
               link: "https://goo.gl/forms/UqmslxGN1xcWMEpY2",
